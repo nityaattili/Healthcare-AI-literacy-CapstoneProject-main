@@ -1,0 +1,27 @@
+Healthcare AI literacy portal — optional seeded accounts
+================================================================
+
+To create these three accounts automatically on an EMPTY database, set:
+
+  export AIL_SEED_STANDARD_ACCOUNTS=1
+
+before starting Streamlit. You can override passwords with:
+
+  AIL_SEED_ADMIN_PASSWORD
+  AIL_SEED_INSTRUCTOR_PASSWORD
+  AIL_SEED_STUDENT_PASSWORD
+
+Default seeded credentials (change after first login):
+
+  Role          Username      Default password
+  ------------  ------------  --------------------------------
+  admin         admin         Admin@Healthcare2026!
+  instructor    instructor    Instructor@Healthcare2026!
+  student       student       Student@Healthcare2026!
+
+If AIL_SEED_STANDARD_ACCOUNTS is not set, the database stays empty until you
+complete the first-time administrator form on the sign-in screen.
+
+Administrators assign instructors to students under Permissions & users
+(supervisor column). Instructors see all students on their dashboard;
+rows assigned to them are listed first.

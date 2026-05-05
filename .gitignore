@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+output/
+data/
+!data/demo/.gitkeep
+.env
+.DS_Store
+*.log
+.env

@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#0d9488"
+backgroundColor = "#f7faf9"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0c1f1d"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+headless = true
+# Reduces aggressive imports from site-packages (broken torch/transformers) during dev reloads.
+fileWatcherType = "poll"
