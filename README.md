@@ -1,6 +1,7 @@
 # AI Literacy in Healthcare: An NLP-Based Knowledge Mapping System
 
-## Overview
+# Overview
+---
 
 The rapid growth of Artificial Intelligence (AI) in healthcare has resulted in a large increase in research publications across domains such as clinical decision support, medical imaging, predictive analytics, natural language processing, and healthcare automation. While this growth accelerates innovation, it also creates challenges in organizing, understanding, and exploring large volumes of research literature.
 
@@ -17,9 +18,8 @@ The platform integrates:
 
 to transform unstructured healthcare AI literature into a searchable and interpretable knowledge ecosystem.
 
----
-
 # Project Goals
+---
 
 The primary objectives of this project are to:
 
@@ -30,9 +30,8 @@ The primary objectives of this project are to:
 - Generate interpretable knowledge maps and topic relationships
 - Support interactive exploration for technical and non-technical users
 
----
-
 # Workflow & Methodology
+---
 
 ## 1. Real-Time Research Data Collection
 
@@ -50,8 +49,6 @@ The platform dynamically retrieves healthcare AI research publications using:
 
 The real-time ingestion pipeline allows newly published healthcare AI literature to be continuously integrated into the system.
 
----
-
 ## 2. Data Cleaning & Preprocessing
 
 Collected research data undergoes preprocessing before NLP analysis.
@@ -66,26 +63,20 @@ Collected research data undergoes preprocessing before NLP analysis.
 
 This improves consistency and enhances downstream NLP performance.
 
----
-
 ## 3. NLP Processing Pipeline
 
 The platform applies multiple NLP techniques to extract insights from healthcare AI literature.
 
----
-
-## TF-IDF Keyword Extraction
+### TF-IDF Keyword Extraction
 
 TF-IDF vectorization is used to identify important terms across research titles and abstracts.
 
-### Purpose
+#### Purpose
 - Extract domain-relevant keywords
 - Identify recurring healthcare AI concepts
 - Support semantic retrieval and topic analysis
 
----
-
-## Topic Modeling & Theme Discovery
+### Topic Modeling & Theme Discovery
 
 Latent Dirichlet Allocation (LDA) is used to discover thematic structures within the literature corpus.
 
@@ -94,9 +85,7 @@ This enables:
 - Categorization of healthcare AI domains
 - Identification of interdisciplinary topic relationships
 
----
-
-## LLM-Assisted Topic Labeling
+### LLM-Assisted Topic Labeling
 
 Large Language Models (LLMs) are used to generate human-readable topic labels from extracted keywords and representative abstracts.
 
@@ -105,39 +94,32 @@ This improves:
 - Semantic understanding
 - User readability
 
----
-
-## Semantic Similarity Analysis
+### Semantic Similarity Analysis
 
 Semantic embeddings are generated to identify contextually related research papers.
 
-### Capabilities
+#### Capabilities
 - Context-aware literature retrieval
 - Similar paper recommendations
 - Relationship discovery beyond keyword matching
 
 This enables intelligent exploration of healthcare AI research.
 
----
-
-## AI-Powered Research Summarization
+### AI-Powered Research Summarization
 
 The platform integrates LLM-based summarization techniques to generate concise summaries of research papers and topic clusters.
 
-### Features
+#### Features
 - Abstract summarization
 - Topic-level summaries
 - Simplified research interpretation
 
 This functionality improves accessibility for both technical and non-technical users.
 
----
-
 # Knowledge Mapping & Visualization
+---
 
 The project generates interactive graph-based visualizations to represent conceptual relationships between research topics and publications.
-
----
 
 ## Keyword Knowledge Graph
 
@@ -148,8 +130,6 @@ Built using keyword co-occurrence analysis to visualize relationships between he
 - Deep Learning ↔ Medical Imaging
 - NLP ↔ Electronic Health Records
 
----
-
 ## Semantic Similarity Graph
 
 Constructed using embedding similarity scores to identify semantically related publications and research themes.
@@ -159,13 +139,13 @@ The graph supports:
 - Intelligent paper navigation
 - Discovery of interconnected research areas
 
----
-
 # Interactive Web Application
+---
 
 A Streamlit-based web application was developed to provide real-time research exploration capabilities.
 
 ## Core Features
+
 - Semantic research paper search
 - Topic exploration dashboards
 - Knowledge graph visualization
@@ -173,9 +153,7 @@ A Streamlit-based web application was developed to provide real-time research ex
 - AI-generated summaries
 - Metadata exploration
 
----
-
-# Multi-User Authentication & Role-Based Access
+## Multi-User Authentication & Role-Based Access
 
 The platform includes authentication and role-based access functionality to support different user groups.
 
@@ -185,72 +163,48 @@ The platform includes authentication and role-based access functionality to supp
 - Student/User
 
 ### Role-Based Features
-- CControlled dashboard access ensures that different user roles can securely interact with features and datasets relevant to their permissions.
+
+- Controlled dashboard access ensures that different user roles can securely interact with features and datasets relevant to their permissions.
+
 - Research management functionality allows administrative users to monitor, organize, and manage research workflows and platform content efficiently.
+
 - User-specific exploration capabilities provide personalized access to research search, visualization, and analysis features based on assigned roles.
 
----
-
 # Evaluation Methodology
+---
 
 The system was evaluated using both analytical and qualitative approaches.
 
 ## Topic Modeling Evaluation
-- Topic coherence analysis
-- Manual validation of topic interpretability
-- Assessment of thematic consistency
 
----
+Topic modeling outputs were evaluated using coherence analysis and manual validation to ensure that generated themes were semantically meaningful and interpretable.
 
 ## Keyword Extraction Evaluation
-- Relevance of TF-IDF keywords
-- Domain-specific contextual significance
-- Representation quality of healthcare AI concepts
 
----
+TF-IDF generated keywords were assessed for contextual relevance and their ability to accurately represent important healthcare AI research concepts.
 
 ## Semantic Similarity Evaluation
-- Contextual relevance of retrieved publications
-- Embedding similarity consistency
-- Conceptual alignment between related papers
 
----
+Semantic retrieval performance was evaluated by analyzing whether embedding-based similarity methods correctly identified conceptually related research publications.
 
 ## LLM Topic Label Evaluation
-LLM-generated topic labels were evaluated for:
-- Interpretability
-- Semantic accuracy
-- Human readability
 
----
+LLM-generated topic labels were reviewed for semantic accuracy, readability, and alignment with extracted keywords and representative abstracts.
 
 ## Research Summarization Evaluation
-AI-generated summaries were assessed through:
-- Relevance
-- Clarity
-- Context preservation
-- Retention of key research insights
 
----
+AI-generated summaries were evaluated based on clarity, contextual relevance, and preservation of important research insights from original publications.
 
 ## Knowledge Graph Validation
-Knowledge graphs were evaluated through:
-- Keyword co-occurrence accuracy
-- Relationship relevance
-- Graph interpretability
 
----
+Knowledge graph outputs were assessed to verify the accuracy and interpretability of relationships between healthcare AI concepts and publications.
 
 ## System-Level Evaluation
-The overall platform was additionally evaluated based on:
-- Search effectiveness
-- Dashboard usability
-- Visualization clarity
-- Workflow scalability
 
----
+The overall platform was evaluated based on search effectiveness, visualization usability, workflow scalability, and user interaction experience.
 
 # Technologies Used
+---
 
 ## Programming & Data Processing
 - Python
@@ -279,9 +233,8 @@ The overall platform was additionally evaluated based on:
 - PubMed API
 - PubMed Central (PMC)
 
----
-
 # Project Structure
+---
 
 ```text
 AI-Literacy-Healthcare/
@@ -299,9 +252,8 @@ AI-Literacy-Healthcare/
 └── README.md
 ```
 
----
-
 # Setup Instructions
+---
 
 ## 1. Clone Repository
 
@@ -309,8 +261,6 @@ AI-Literacy-Healthcare/
 git clone https://github.com/your-username/AI-Literacy-Healthcare.git
 cd AI-Literacy-Healthcare
 ```
-
----
 
 ## 2. Create Virtual Environment
 
@@ -330,15 +280,11 @@ Windows:
 venv\Scripts\activate
 ```
 
----
-
 ## 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## 4. Configure API Access
 
@@ -346,8 +292,6 @@ Example:
 ```bash
 PUBMED_API_KEY=your_api_key
 ```
-
----
 
 ## 5. Run the Application
 
@@ -361,23 +305,29 @@ The application will run locally at:
 http://localhost:8501
 ```
 
----
-
 # Key Features Summary
-
-- Real-time PubMed research ingestion
-- Semantic healthcare AI paper search
-- NLP-based topic modeling
-- LLM-assisted topic labeling
-- AI-powered research summarization
-- Interactive knowledge graph visualization
-- Semantic similarity analysis
-- Publication trend analytics
-- Multi-user authentication and role-based access
-
 ---
+
+- Real-time PubMed research ingestion enables the platform to continuously retrieve and process newly published healthcare AI literature for up-to-date analysis and exploration.
+
+- Semantic healthcare AI paper search allows users to discover contextually relevant research papers using NLP-based retrieval instead of relying only on exact keyword matches.
+
+- NLP-based topic modeling automatically identifies major healthcare AI research themes and organizes publications into interpretable topic clusters.
+
+- LLM-assisted topic labeling improves topic interpretability by generating meaningful human-readable labels from extracted keywords and research abstracts.
+
+- AI-powered research summarization helps users quickly understand complex research papers and topic clusters through concise automated summaries.
+
+- Interactive knowledge graph visualization enables users to explore conceptual relationships and interconnected healthcare AI domains through graph-based representations.
+
+- Semantic similarity analysis identifies contextually related publications using embedding-based similarity techniques to improve intelligent literature discovery.
+
+- Publication trend analytics provides insights into the growth, evolution, and distribution of healthcare AI research across different domains and time periods.
+
+- Multi-user authentication and role-based access supports secure and personalized platform interaction for administrators, researchers, and student users.
 
 # Challenges Addressed
+---
 
 This project addresses several challenges associated with healthcare AI literature exploration:
 
@@ -386,19 +336,19 @@ This project addresses several challenges associated with healthcare AI literatu
 - Limited accessibility of technical research for non-technical users
 - Challenges in thematic organization of interdisciplinary literature
 
+# Future Enhancements
 ---
 
-# Future Enhancements
-
-Planned future improvements include:
 - Advanced transformer-based retrieval models can be integrated to improve semantic search accuracy and enhance contextual understanding of healthcare AI literature.
+
 - Personalized recommendation systems can be developed to provide users with customized research suggestions based on their search patterns and interests.
+
 - Citation network analysis can be incorporated to visualize relationships between referenced publications and identify influential research contributions.
+
 - Cloud-native deployment and scalability optimization can be implemented to support larger datasets, improved system performance, and multi-user scalability.
 
----
-
 # Research Contribution
+---
 
 This project demonstrates how NLP, semantic retrieval, LLM-assisted interpretation, and knowledge mapping techniques can improve accessibility and understanding of healthcare AI research.
 
@@ -407,25 +357,22 @@ The platform contributes toward:
 - Supporting interdisciplinary research discovery
 - Enhancing semantic understanding of research literature
 
----
-
 # Author
+---
 
 **Nitya Tejaswi Attili**  
 Master of Science in Information Science & Machine Learning  
 University of Arizona
 
+# Acknowledgements
 ---
 
-# Acknowledgements
-
 Special thanks to:
-- Dr. Xiao Hu - Faculty Advisor
+- Dr. Xiao Hu — Faculty Advisor
 - University of Arizona
 - PubMed & NCBI Research Resources
 
----
-
 # License
+---
 
 This project is intended for educational and research purposes.
