@@ -67,7 +67,7 @@ This improves consistency and enhances downstream NLP performance.
 
 The platform applies multiple NLP techniques to extract insights from healthcare AI literature.
 
-#### TF-IDF Keyword Extraction
+#### A.TF-IDF Keyword Extraction
 
 TF-IDF vectorization is used to identify important terms across research titles and abstracts.
 
@@ -76,7 +76,7 @@ TF-IDF vectorization is used to identify important terms across research titles 
 - Identify recurring healthcare AI concepts
 - Support semantic retrieval and topic analysis
 
-#### Topic Modeling & Theme Discovery
+#### B. Topic Modeling & Theme Discovery
 
 Latent Dirichlet Allocation (LDA) is used to discover thematic structures within the literature corpus.
 
@@ -85,7 +85,7 @@ This enables:
 - Categorization of healthcare AI domains
 - Identification of interdisciplinary topic relationships
 
-#### LLM-Assisted Topic Labeling
+#### C. LLM-Assisted Topic Labeling
 
 Large Language Models (LLMs) are used to generate human-readable topic labels from extracted keywords and representative abstracts.
 
@@ -94,7 +94,7 @@ This improves:
 - Semantic understanding
 - User readability
 
-#### Semantic Similarity Analysis
+#### D. Semantic Similarity Analysis
 
 Semantic embeddings are generated to identify contextually related research papers.
 
@@ -105,7 +105,7 @@ Semantic embeddings are generated to identify contextually related research pape
 
 This enables intelligent exploration of healthcare AI research.
 
-#### AI-Powered Research Summarization
+#### E. AI-Powered Research Summarization
 
 The platform integrates LLM-based summarization techniques to generate concise summaries of research papers and topic clusters.
 
@@ -175,31 +175,31 @@ The platform includes authentication and role-based access functionality to supp
 
 The system was evaluated using both analytical and qualitative approaches.
 
-### Topic Modeling Evaluation
+### 1.Topic Modeling Evaluation
 
 Topic modeling outputs were evaluated using coherence analysis and manual validation to ensure that generated themes were semantically meaningful and interpretable.
 
-### Keyword Extraction Evaluation
+### 2.Keyword Extraction Evaluation
 
 TF-IDF generated keywords were assessed for contextual relevance and their ability to accurately represent important healthcare AI research concepts.
 
-### Semantic Similarity Evaluation
+### 3.Semantic Similarity Evaluation
 
 Semantic retrieval performance was evaluated by analyzing whether embedding-based similarity methods correctly identified conceptually related research publications.
 
-### LLM Topic Label Evaluation
+### 4.LLM Topic Label Evaluation
 
 LLM-generated topic labels were reviewed for semantic accuracy, readability, and alignment with extracted keywords and representative abstracts.
 
-### Research Summarization Evaluation
+### 5.Research Summarization Evaluation
 
 AI-generated summaries were evaluated based on clarity, contextual relevance, and preservation of important research insights from original publications.
 
-### Knowledge Graph Validation
+### 6.Knowledge Graph Validation
 
 Knowledge graph outputs were assessed to verify the accuracy and interpretability of relationships between healthcare AI concepts and publications.
 
-### System-Level Evaluation
+### 7.System-Level Evaluation
 
 The overall platform was evaluated based on search effectiveness, visualization usability, workflow scalability, and user interaction experience.
 
@@ -331,10 +331,10 @@ http://localhost:8501
 
 This project addresses several challenges associated with healthcare AI literature exploration:
 
-- Information overload in rapidly growing healthcare AI research
-- Difficulty identifying semantic relationships between publications
-- Limited accessibility of technical research for non-technical users
-- Challenges in thematic organization of interdisciplinary literature
+1. Information overload in rapidly growing healthcare AI research
+2. Difficulty identifying semantic relationships between publications
+3. Limited accessibility of technical research for non-technical users
+4. Challenges in thematic organization of interdisciplinary literature
 
 # Future Enhancements
 ---
