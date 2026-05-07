@@ -67,7 +67,7 @@ This improves consistency and enhances downstream NLP performance.
 
 The platform applies multiple NLP techniques to extract insights from healthcare AI literature.
 
-#### A.TF-IDF Keyword Extraction
+#### A. TF-IDF Keyword Extraction
 
 TF-IDF vectorization is used to identify important terms across research titles and abstracts.
 
@@ -175,31 +175,31 @@ The platform includes authentication and role-based access functionality to supp
 
 The system was evaluated using both analytical and qualitative approaches.
 
-### 1.Topic Modeling Evaluation
+### 1. Topic Modeling Evaluation
 
 Topic modeling outputs were evaluated using coherence analysis and manual validation to ensure that generated themes were semantically meaningful and interpretable.
 
-### 2.Keyword Extraction Evaluation
+### 2. Keyword Extraction Evaluation
 
 TF-IDF generated keywords were assessed for contextual relevance and their ability to accurately represent important healthcare AI research concepts.
 
-### 3.Semantic Similarity Evaluation
+### 3. Semantic Similarity Evaluation
 
 Semantic retrieval performance was evaluated by analyzing whether embedding-based similarity methods correctly identified conceptually related research publications.
 
-### 4.LLM Topic Label Evaluation
+### 4. LLM Topic Label Evaluation
 
 LLM-generated topic labels were reviewed for semantic accuracy, readability, and alignment with extracted keywords and representative abstracts.
 
-### 5.Research Summarization Evaluation
+### 5. Research Summarization Evaluation
 
 AI-generated summaries were evaluated based on clarity, contextual relevance, and preservation of important research insights from original publications.
 
-### 6.Knowledge Graph Validation
+### 6. Knowledge Graph Validation
 
 Knowledge graph outputs were assessed to verify the accuracy and interpretability of relationships between healthcare AI concepts and publications.
 
-### 7.System-Level Evaluation
+### 7. System-Level Evaluation
 
 The overall platform was evaluated based on search effectiveness, visualization usability, workflow scalability, and user interaction experience.
 
